@@ -17,8 +17,8 @@ module.exports = {
         veryDarkGrayishBlue: 'hsl(207, 13%, 34%)',
         veryDarkBlackBlue: 'hsl(240, 10%, 16%)',
 
-        veryLightRed: 'hsl(13, 100%, 72%)',
-        lightRed: 'hsl(353, 100%, 62%)',
+        veryLightRedG: 'hsl(13, 100%, 72%)',
+        lightRedG: 'hsl(353, 100%, 62%)',
 
         veryDarkGrayBlue: 'hsl(237, 17%, 21%)',
         veryDarkDesaturatedBlue: 'hsl(237, 23%, 32%)'
