@@ -18,6 +18,11 @@ module.exports = {
 
         veryDarkGrayBlue: 'hsl(237, 17%, 21%)',
         veryDarkDesaturatedBlue: 'hsl(237, 23%, 32%)'
+      },
+
+      fontFamily: {
+        overpass: 'Overpass',
+        ubuntu: 'Ubuntu' 
       }
     },
   },
