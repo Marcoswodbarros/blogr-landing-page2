@@ -522,24 +522,16 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.mb-10 {
-  margin-bottom: 2.5rem;
-}
-
-.mb-16 {
-  margin-bottom: 4rem;
-}
-
 .mb-20 {
   margin-bottom: 5rem;
 }
 
-.flex {
-  display: flex;
+.mb-10 {
+  margin-bottom: 2.5rem;
 }
 
-.h-6 {
-  height: 1.5rem;
+.flex {
+  display: flex;
 }
 
 .h-4 {
@@ -550,20 +542,8 @@ video {
   height: 2rem;
 }
 
-.h-5 {
-  height: 1.25rem;
-}
-
-.w-5\/6 {
-  width: 83.333333%;
-}
-
 .w-10\/12 {
   width: 83.333333%;
-}
-
-.w-11\/12 {
-  width: 91.666667%;
 }
 
 .w-9\/12 {
@@ -578,16 +558,8 @@ video {
   align-items: center;
 }
 
-.justify-center {
-  justify-content: center;
-}
-
 .justify-between {
   justify-content: space-between;
-}
-
-.justify-around {
-  justify-content: space-around;
 }
 
 .justify-evenly {
@@ -598,16 +570,20 @@ video {
   row-gap: 1rem;
 }
 
-.rounded-2xl {
-  border-radius: 1rem;
-}
-
 .rounded-3xl {
   border-radius: 1.5rem;
 }
 
+.rounded-bl-radiusAdded {
+  border-bottom-left-radius: 6rem;
+}
+
 .border-2 {
   border-width: 2px;
+}
+
+.border {
+  border-width: 1px;
 }
 
 .border-solid {
@@ -619,14 +595,13 @@ video {
   border-color: hsl(0 0% 100% / var(--tw-border-opacity));
 }
 
+.bg-transparent {
+  background-color: transparent;
+}
+
 .bg-veryLightRed {
   --tw-bg-opacity: 1;
   background-color: hsl(13 100% 72% / var(--tw-bg-opacity));
-}
-
-.bg-lightRed {
-  --tw-bg-opacity: 1;
-  background-color: hsl(353 100% 62% / var(--tw-bg-opacity));
 }
 
 .bg-white {
@@ -634,17 +609,9 @@ video {
   background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
 }
 
-.bg-transparent {
-  background-color: transparent;
-}
-
-.p-4 {
-  padding: 1rem;
-}
-
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
 .px-6 {
@@ -657,28 +624,8 @@ video {
   padding-bottom: 0.5rem;
 }
 
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-
-.py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-}
-
-.px-3 {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
-}
-
-.py-1 {
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
-}
-
-.pt-8 {
-  padding-top: 2rem;
+.pb-32 {
+  padding-bottom: 8rem;
 }
 
 .pt-10 {
@@ -689,22 +636,12 @@ video {
   text-align: center;
 }
 
-.font-ubuntu {
-  font-family: Ubuntu;
-}
-
 .font-overpass {
   font-family: Overpass;
 }
 
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.font-ubuntu {
+  font-family: Ubuntu;
 }
 
 .text-4xl {
@@ -716,12 +653,12 @@ video {
   font-weight: 700;
 }
 
-.text-white {
-  --tw-text-opacity: 1;
-  color: hsl(0 0% 100% / var(--tw-text-opacity));
-}
-
 .text-lightRed {
   --tw-text-opacity: 1;
   color: hsl(353 100% 62% / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: hsl(0 0% 100% / var(--tw-text-opacity));
 }

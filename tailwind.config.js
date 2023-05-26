@@ -3,6 +3,10 @@ module.exports = {
   content: ["./index.html"],
   theme: {
     extend: {
+      borderRadius: {
+        radiusAdded: '6rem'
+      },
+
       colors: {
         lightRed: 'hsl(356, 100%, 66%)',
         veryLightRed: 'hsl(355, 100%, 74%)',
