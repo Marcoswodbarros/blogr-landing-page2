@@ -902,8 +902,32 @@ video {
     padding-top: 2.5rem;
   }
 
+  .lg\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .lg\:font-bold {
+    font-weight: 700;
+  }
+
   .lg\:text-white {
     --tw-text-opacity: 1;
     color: hsl(0 0% 100% / var(--tw-text-opacity));
+  }
+
+  .lg\:text-veryDarkDesaturatedBlue {
+    --tw-text-opacity: 1;
+    color: hsl(237 23% 32% / var(--tw-text-opacity));
+  }
+
+  .lg\:text-veryDarkGrayishBlue {
+    --tw-text-opacity: 1;
+    color: hsl(207 13% 34% / var(--tw-text-opacity));
+  }
+
+  .lg\:text-grayishBlue {
+    --tw-text-opacity: 1;
+    color: hsl(240 2% 79% / var(--tw-text-opacity));
   }
 }
