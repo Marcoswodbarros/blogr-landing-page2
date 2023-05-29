@@ -821,3 +821,9 @@ video {
   --tw-text-opacity: 1;
   color: hsl(240 2% 79% / var(--tw-text-opacity));
 }
+
+@media (min-width: 1024px) {
+  .lg\:hidden {
+    display: none;
+  }
+}

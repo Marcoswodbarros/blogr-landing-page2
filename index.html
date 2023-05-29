@@ -21,7 +21,24 @@
         class="bg-lightRed pb-32 rounded-bl-radiusAdded">
         <div id="header__nav--container" class="flex items-center justify-between pt-10 px-6 mb-28">
             <img src="src/images/logo.svg" class="h-8" alt="Blogr logo">
-            <img src="src/images/icon-hamburger.svg" class="h-4" alt="Icon hamburguer menu">
+            <img src="src/images/icon-hamburger.svg" class="h-4 lg:hidden" alt="Icon hamburguer menu">
+        </div>
+
+        <div id="header__nav--desktop">
+            <nav>
+                <ul class="flex items-center justify-center gap-x-4 text-white">
+                    <li>Product</li>
+                    <li>Company</li>
+                    <li>Connect</li>
+                </ul>
+            </nav>
+
+            <div id="header__nav--buttons" class="flex items-center justify-center gap-x-4">
+                <a href="#"
+                    class="bg-transparent text-white font-ubuntu font-bold py-2 px-3">Login</a>
+                <a href="#"
+                    class="bg-white text-lightRed font-ubuntu font-bold py-2 px-3 border border-solid border-white rounded-3xl">Sign up</a>
+            </div>
         </div>
 
         <div id="header__titles--container" class="flex flex-col items-center gap-y-4 mb-10">
@@ -85,8 +102,10 @@
             <article class="flex flex-col items-center gap-y-6">
                 <img src="src/images/illustration-laptop-mobile.svg" alt="A laptop illustration" class="">
                 <div id="article__state--container" class="flex flex-col items-center gap-y-4">
-                    <h3 class="font-overpass text-veryDarkBlue text-2xl font-bold text-center w-8/12">Free, open, simple</h3>
-                    <p class="text-veryDarkGrayishBlue text-center w-9/12"> Blogr is a free and open source application backed by a
+                    <h3 class="font-overpass text-veryDarkBlue text-2xl font-bold text-center w-8/12">Free, open, simple
+                    </h3>
+                    <p class="text-veryDarkGrayishBlue text-center w-9/12"> Blogr is a free and open source application
+                        backed by a
                         large community of helpful developers. It supports
                         features such as code syntax highlighting, RSS feeds, social media integration, third-party
                         commenting tools,
@@ -97,13 +116,15 @@
 
             <article class="flex flex-col items-center gap-y-4">
                 <h3 class="font-overpass text-veryDarkBlue text-2xl font-bold text-center w-8/12">Powerful tooling</h3>
-                <p class="text-veryDarkGrayishBlue text-center w-9/12">Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
+                <p class="text-veryDarkGrayishBlue text-center w-9/12">Batteries included. We built a simple and
+                    straightforward CLI tool that makes customization and deployment a breeze, but
                     capable of producing even the most complicated sites.</p>
             </article>
         </section>
     </main>
 
-    <footer class="bg-veryDarkBlackBlue flex flex-col items-center gap-y-8 text-center rounded-tr-radiusAdded mt-24 pb-16">
+    <footer
+        class="bg-veryDarkBlackBlue flex flex-col items-center gap-y-8 text-center rounded-tr-radiusAdded mt-24 pb-16">
         <h2 class="text-white text-3xl font-semibold pt-16">Blogr</h2>
         <article>
             <h3 class="text-lg text-white font-semibold mb-4">Product</h3>
