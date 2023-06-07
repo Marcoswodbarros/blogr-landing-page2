@@ -104,19 +104,24 @@
                 </div>
 
                 <div class="hidden lg:block lg:w-2/4 lg:h-full">
-                    <img src="src/images/illustration-editor-desktop.svg" class="absolute -top-10 w-2/4" alt="Graphic illustration">
+                    <img src="src/images/illustration-editor-desktop.svg" class="absolute -top-10 w-2/4"
+                        alt="Graphic illustration">
                 </div>
             </section>
 
             <section
                 style="background-image: url(src/images/bg-pattern-circles.svg); background-size: 160%; background-repeat: no-repeat; background-position: center bottom 14rem;"
                 class="bg-veryDarkGrayBlue rounded-bl-radiusAdded rounded-tr-radiusAdded mt-48 relative lg:flex lg:flex-row-reverse">
-                <img src="src/images/illustration-phones.svg" alt="Two cellphones" class="absolute bottom-5rem lg:-top-14 lg:left-32 lg:h-30rem">
+                <img src="src/images/illustration-phones.svg" alt="Two cellphones"
+                    class="absolute bottom-5rem lg:-top-14 lg:left-32 lg:h-30rem">
 
-                <div id="article__state--container" class="flex flex-col items-center gap-y-4 pt-56 pb-32 lg:pt-24 lg:pb-24 lg:w-2/4">
-                    <h3 class="font-overpass text-white text-2xl font-bold text-center w-8/12 lg:text-start lg:w-9/12">State of the Art
+                <div id="article__state--container"
+                    class="flex flex-col items-center gap-y-4 pt-56 pb-32 lg:pt-24 lg:pb-24 lg:w-2/4">
+                    <h3 class="font-overpass text-white text-2xl font-bold text-center w-8/12 lg:text-start lg:w-9/12">
+                        State of the Art
                         Infrastructure</h3>
-                    <p class="text-white text-center w-9/12 lg:text-start lg:w-9/12">With reliability and speed in mind, worldwide
+                    <p class="text-white text-center w-9/12 lg:text-start lg:w-9/12">With reliability and speed in mind,
+                        worldwide
                         data centers provide the backbone for ultra-fast connectivity.
                         This ensures your site will load instantly, no matter where your readers are, keeping your site
                         competitive.</p>
@@ -124,30 +129,36 @@
             </section>
 
             <!-- Próximo passo: mudar de article para section e criar outro article -->
-            <section id="article__free--container">
-                <article class="flex flex-col items-center gap-y-6">
-                    <img src="src/images/illustration-laptop-mobile.svg" alt="A laptop illustration" class="">
-                    <div id="article__state--container" class="flex flex-col items-center gap-y-4">
-                        <h3 class="font-overpass text-veryDarkBlue text-2xl font-bold text-center w-8/12">Free, open,
-                            simple
-                        </h3>
-                        <p class="text-veryDarkGrayishBlue text-center w-9/12"> Blogr is a free and open source
-                            application backed by a
-                            large community of helpful developers. It supports features such as code syntax
-                            highlighting, RSS feeds,
-                            social media integration, third-party commenting tools, and works seamlessly with Google
-                            Analytics.
-                            The architecture is clean and is relatively easy to learn.</p>
-                    </div>
-                </article>
+            <section id="article__free--container" class="lg:flex lg:items-center">
+                <img src="src/images/illustration-laptop-mobile.svg" alt="A laptop illustration" class="lg:hidden">
+                <img src="src/images/illustration-laptop-desktop.svg" alt="A laptop illustration" class="hidden lg:block lg:h-30rem">
 
-                <article class="flex flex-col items-center gap-y-4">
-                    <h3 class="font-overpass text-veryDarkBlue text-2xl font-bold text-center w-8/12">Powerful tooling
-                    </h3>
-                    <p class="text-veryDarkGrayishBlue text-center w-9/12">Batteries included. We built a simple and
-                        straightforward CLI tool that makes customization and deployment a breeze, but
-                        capable of producing even the most complicated sites.</p>
-                </article>
+                <div class="lg:flex lg:flex-col lg:items-center lg:gap-y-20">
+                    <article class="flex flex-col items-center gap-y-6">
+                        <div id="article__state--container" class="flex flex-col items-center gap-y-4">
+                            <h3 class="font-overpass text-veryDarkBlue text-2xl font-bold text-center w-8/12 lg:text-start">Free,
+                                open,
+                                simple
+                            </h3>
+                            <p class="text-veryDarkGrayishBlue text-center w-9/12 lg:text-start lg:w-8/12"> Blogr is a free and open source
+                                application backed by a
+                                large community of helpful developers. It supports features such as code syntax
+                                highlighting, RSS feeds,
+                                social media integration, third-party commenting tools, and works seamlessly with Google
+                                Analytics.
+                                The architecture is clean and is relatively easy to learn.</p>
+                        </div>
+                    </article>
+
+                    <article class="flex flex-col items-center gap-y-4">
+                        <h3 class="font-overpass text-veryDarkBlue text-2xl font-bold text-center w-8/12 lg:text-start">Powerful
+                            tooling
+                        </h3>
+                        <p class="text-veryDarkGrayishBlue text-center w-9/12 lg:text-start lg:w-8/12">Batteries included. We built a simple and
+                            straightforward CLI tool that makes customization and deployment a breeze, but
+                            capable of producing even the most complicated sites.</p>
+                    </article>
+                </div>
             </section>
         </section>
     </main>

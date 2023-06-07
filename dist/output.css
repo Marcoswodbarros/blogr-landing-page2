@@ -843,6 +843,18 @@ video {
     width: 75%;
   }
 
+  .lg\:w-2\/3 {
+    width: 66.666667%;
+  }
+
+  .lg\:w-11\/12 {
+    width: 91.666667%;
+  }
+
+  .lg\:w-10\/12 {
+    width: 83.333333%;
+  }
+
   .lg\:flex-row-reverse {
     flex-direction: row-reverse;
   }
@@ -871,6 +883,10 @@ video {
 
   .lg\:gap-y-20 {
     row-gap: 5rem;
+  }
+
+  .lg\:gap-y-10 {
+    row-gap: 2.5rem;
   }
 
   .lg\:px-6 {
