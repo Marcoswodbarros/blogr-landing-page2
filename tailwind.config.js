@@ -29,8 +29,13 @@ module.exports = {
         ubuntu: 'Ubuntu' 
       },
 
+      height: {
+        '30rem': '30rem'
+      },
+
       spacing: {
-        '5rem': '23rem'
+        '5rem': '23rem',
+        '30rem': '30rem'
       }
     },
   },
