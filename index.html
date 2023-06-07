@@ -62,39 +62,50 @@
     </header>
 
     <main>
-        <section id="main__articles--container" class="flex flex-col gap-y-14 mt-28">
+        <section id="main__articles--container" class="flex flex-col gap-y-14 mt-28 relative">
             <div class="flex flex-col items-center gap-y-10">
                 <h3 class="font-overpass text-veryDarkBlue text-2xl font-bold text-center w-10/12">Designed for the
                     future</h3>
                 <img src="src/images/illustration-editor-mobile.svg" class="lg:hidden" alt="Graphic illustration">
             </div>
 
-            <section id="articles__intro--container">
-                <article class="flex flex-col items-center gap-y-4">
-                    <h3 class="font-overpass text-veryDarkBlue text-2xl font-bold text-center w-8/12">Introducing an
-                        extensible editor</h3>
-                    <p class="text-veryDarkGrayishBlue text-center w-9/12">Blogr features an exceedingly intuitive
-                        interface
-                        which lets you focus on one thing: creating content.
-                        The editor supports management of multiple blogs and allows easy manipulation of embeds such as
-                        images,
-                        videos, and Markdown. Extensibility with plugins and themes provide easy ways to add
-                        functionality
-                        or
-                        change the looks of a blog.</p>
-                </article>
+            <section id="articles__intro--container" class="lg:flex lg:items-center">
+                <div class="lg:w-2/4 lg:flex lg:flex-col lg:gap-y-20">
+                    <article class="flex flex-col items-center gap-y-4">
+                        <h3 class="font-overpass text-veryDarkBlue text-2xl font-bold text-center w-8/12 lg:text-start">
+                            Introducing an
+                            extensible editor</h3>
+                        <p class="text-veryDarkGrayishBlue text-center w-9/12 lg:text-start lg:w-8/12">Blogr features an
+                            exceedingly intuitive
+                            interface
+                            which lets you focus on one thing: creating content.
+                            The editor supports management of multiple blogs and allows easy manipulation of embeds such
+                            as
+                            images,
+                            videos, and Markdown. Extensibility with plugins and themes provide easy ways to add
+                            functionality
+                            or
+                            change the looks of a blog.</p>
+                    </article>
 
-                <article class="flex flex-col items-center gap-y-4">
-                    <h3 class="font-overpass text-veryDarkBlue text-2xl font-bold text-center w-8/12">Robust content
-                        management</h3>
-                    <p class="text-veryDarkGrayishBlue text-center w-9/12">Flexible content management enables users to
-                        easily move through posts. Increase the usability of your blog
-                        by adding customized categories, sections, format, or flow. With this functionality, you’re in
-                        full
-                        control.</p>
-                </article>
+                    <article class="flex flex-col items-center gap-y-4">
+                        <h3 class="font-overpass text-veryDarkBlue text-2xl font-bold text-center w-8/12 lg:text-start">
+                            Robust content
+                            management</h3>
+                        <p class="text-veryDarkGrayishBlue text-center w-9/12 lg:text-start lg:w-8/12">Flexible content
+                            management enables users
+                            to
+                            easily move through posts. Increase the usability of your blog
+                            by adding customized categories, sections, format, or flow. With this functionality, you’re
+                            in
+                            full
+                            control.</p>
+                    </article>
+                </div>
 
-                <img src="src/images/illustration-editor-desktop.svg" class="hidden lg:block" alt="Graphic illustration">
+                <div class="hidden lg:block lg:w-2/4 lg:h-full">
+                    <img src="src/images/illustration-editor-desktop.svg" class="absolute -top-10 w-2/4" alt="Graphic illustration">
+                </div>
             </section>
 
             <section
