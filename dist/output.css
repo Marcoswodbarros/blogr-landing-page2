@@ -809,12 +809,6 @@ video {
   }
 }
 
-@media (min-width: 640px) {
-  .sm\:pt-96 {
-    padding-top: 24rem;
-  }
-}
-
 @media (min-width: 768px) {
   .md\:max-w-md {
     max-width: 28rem;
@@ -832,6 +826,10 @@ video {
 
   .lg\:mb-0 {
     margin-bottom: 0px;
+  }
+
+  .lg\:mb-10 {
+    margin-bottom: 2.5rem;
   }
 
   .lg\:mb-28 {
@@ -876,6 +874,11 @@ video {
 
   .lg\:w-full {
     width: 100%;
+  }
+
+  .lg\:max-w-fit {
+    max-width: -moz-fit-content;
+    max-width: fit-content;
   }
 
   .lg\:flex-row {
