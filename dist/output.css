@@ -697,11 +697,6 @@ video {
   background-color: hsl(237 17% 21% / var(--tw-bg-opacity));
 }
 
-.bg-white {
-  --tw-bg-opacity: 1;
-  background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
-}
-
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -710,11 +705,6 @@ video {
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
-}
-
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
 }
 
 .py-2 {
@@ -787,11 +777,6 @@ video {
   color: hsl(240 2% 79% / var(--tw-text-opacity));
 }
 
-.text-lightRed {
-  --tw-text-opacity: 1;
-  color: hsl(356 100% 66% / var(--tw-text-opacity));
-}
-
 .text-veryDarkBlue {
   --tw-text-opacity: 1;
   color: hsl(208 49% 24% / var(--tw-text-opacity));
@@ -807,41 +792,110 @@ video {
   color: hsl(0 0% 100% / var(--tw-text-opacity));
 }
 
-.duration-300 {
-  transition-duration: 300ms;
-}
-
 .duration-500 {
   transition-duration: 500ms;
 }
 
-.hover\:border-none:hover {
-  border-style: none;
+.button__login {
+  cursor: pointer;
+  background-color: transparent;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  font-family: Ubuntu;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: hsl(240 2% 79% / var(--tw-text-opacity));
 }
 
-.hover\:border-veryLightRed:hover {
+.button__signUp {
+  cursor: pointer;
+  border-radius: 1.5rem;
+  border-width: 1px;
+  border-style: solid;
+  --tw-border-opacity: 1;
+  border-color: hsl(0 0% 100% / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-family: Ubuntu;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: hsl(356 100% 66% / var(--tw-text-opacity));
+  transition-duration: 500ms;
+}
+
+.button__signUp:hover {
   --tw-border-opacity: 1;
   border-color: hsl(355 100% 74% / var(--tw-border-opacity));
-}
-
-.hover\:bg-veryLightRed:hover {
   --tw-bg-opacity: 1;
   background-color: hsl(355 100% 74% / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: hsl(0 0% 100% / var(--tw-text-opacity));
+}
+
+.button__start {
+  cursor: pointer;
+  border-radius: 1.5rem;
+  border-width: 1px;
+  border-style: solid;
+  --tw-border-opacity: 1;
+  border-color: hsl(0 0% 100% / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  font-family: Ubuntu;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: hsl(356 100% 66% / var(--tw-text-opacity));
+  transition-duration: 500ms;
+}
+
+.button__start:hover {
+  --tw-border-opacity: 1;
+  border-color: hsl(355 100% 74% / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: hsl(355 100% 74% / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: hsl(0 0% 100% / var(--tw-text-opacity));
+}
+
+.button__learnMore {
+  cursor: pointer;
+  border-radius: 1.5rem;
+  border-width: 1px;
+  border-style: solid;
+  --tw-border-opacity: 1;
+  border-color: hsl(0 0% 100% / var(--tw-border-opacity));
+  background-color: transparent;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  font-family: Ubuntu;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: hsl(0 0% 100% / var(--tw-text-opacity));
+  transition-duration: 500ms;
+}
+
+.button__learnMore:hover {
+  --tw-bg-opacity: 1;
+  background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: hsl(355 100% 74% / var(--tw-text-opacity));
 }
 
 .hover\:bg-white:hover {
   --tw-bg-opacity: 1;
   background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
-}
-
-.hover\:text-white:hover {
-  --tw-text-opacity: 1;
-  color: hsl(0 0% 100% / var(--tw-text-opacity));
-}
-
-.hover\:text-veryLightRedG:hover {
-  --tw-text-opacity: 1;
-  color: hsl(13 100% 72% / var(--tw-text-opacity));
 }
 
 .hover\:text-veryLightRed:hover {
