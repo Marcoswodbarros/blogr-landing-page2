@@ -128,7 +128,6 @@
                 </div>
             </section>
 
-            <!-- Próximo passo: mudar de article para section e criar outro article -->
             <section id="article__free--container" class="lg:flex lg:items-center">
                 <img src="src/images/illustration-laptop-mobile.svg" alt="A laptop illustration" class="lg:hidden">
                 <img src="src/images/illustration-laptop-desktop.svg" alt="A laptop illustration" class="hidden lg:block lg:h-30rem">
@@ -163,10 +162,11 @@
         </section>
     </main>
 
+    <!-- Próximo passo: Iniciar o desktop footer -->
     <footer
-        class="bg-veryDarkBlackBlue flex flex-col items-center gap-y-8 text-center rounded-tr-radiusAdded mt-24 pb-16">
-        <h2 class="text-white text-3xl font-semibold pt-16">Blogr</h2>
-        <article>
+        class="bg-veryDarkBlackBlue flex flex-col items-center gap-y-8 text-center rounded-tr-radiusAdded mt-24 pb-16 lg:flex-row lg:items-start lg:justify-around">
+        <h2 class="text-white text-3xl font-semibold pt-16 lg:pt-0">Blogr</h2>
+        <section>
             <h3 class="text-lg text-white font-semibold mb-4">Product</h3>
             <ul class="text-grayishBlue">
                 <li>Overview</li>
@@ -175,9 +175,9 @@
                 <li>Features</li>
                 <li>Integrations</li>
             </ul>
-        </article>
+        </section>
 
-        <article>
+        <section>
             <h3 class="text-lg text-white font-semibold mb-4">Company</h3>
             <ul class="text-grayishBlue">
                 <li>About</li>
@@ -185,16 +185,16 @@
                 <li>Blog</li>
                 <li>Careers</li>
             </ul>
-        </article>
+        </section>
 
-        <article>
+        <section>
             <h3 class="text-lg text-white font-semibold mb-4">Connect</h3>
             <ul class="text-grayishBlue">
                 <li>Contact</li>
                 <li>Newsletter</li>
                 <li>LinkedIn</li>
             </ul>
-        </article>
+        </section>
     </footer>
 </body>
 
