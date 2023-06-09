@@ -841,6 +841,16 @@ video {
   }
 }
 
+@media (min-width: 768px) {
+  .md\:w-7\/12 {
+    width: 58.333333%;
+  }
+
+  .md\:max-w-md {
+    max-width: 28rem;
+  }
+}
+
 @media (min-width: 1024px) {
   .lg\:-top-14 {
     top: -3.5rem;
