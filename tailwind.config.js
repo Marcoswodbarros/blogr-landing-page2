@@ -33,6 +33,10 @@ module.exports = {
         '30rem': '30rem'
       },
 
+      screens: {
+        'surface': '420px'
+      },
+
       spacing: {
         '5rem': '23rem',
         '30rem': '30rem'

@@ -534,26 +534,6 @@ video {
   top: -2.5rem;
 }
 
-.bottom-5rem {
-  bottom: 23rem;
-}
-
-.bottom-96 {
-  bottom: 24rem;
-}
-
-.top-0 {
-  top: 0px;
-}
-
-.-top-20 {
-  top: -5rem;
-}
-
-.-top-40 {
-  top: -10rem;
-}
-
 .-top-48 {
   top: -12rem;
 }
@@ -584,10 +564,6 @@ video {
 
 .mt-48 {
   margin-top: 12rem;
-}
-
-.mb-8 {
-  margin-bottom: 2rem;
 }
 
 .flex {
@@ -762,14 +738,6 @@ video {
   padding-top: 14rem;
 }
 
-.pb-4 {
-  padding-bottom: 1rem;
-}
-
-.pt-96 {
-  padding-top: 24rem;
-}
-
 .text-center {
   text-align: center;
 }
@@ -835,6 +803,12 @@ video {
   color: hsl(0 0% 100% / var(--tw-text-opacity));
 }
 
+@media (min-width: 420px) {
+  .surface\:pt-96 {
+    padding-top: 24rem;
+  }
+}
+
 @media (min-width: 640px) {
   .sm\:pt-96 {
     padding-top: 24rem;
@@ -842,10 +816,6 @@ video {
 }
 
 @media (min-width: 768px) {
-  .md\:w-7\/12 {
-    width: 58.333333%;
-  }
-
   .md\:max-w-md {
     max-width: 28rem;
   }
@@ -856,24 +826,16 @@ video {
     top: -3.5rem;
   }
 
-  .lg\:left-32 {
-    left: 8rem;
-  }
-
-  .lg\:left-20 {
-    left: 5rem;
-  }
-
   .lg\:left-96 {
     left: 24rem;
   }
 
-  .lg\:mb-28 {
-    margin-bottom: 7rem;
-  }
-
   .lg\:mb-0 {
     margin-bottom: 0px;
+  }
+
+  .lg\:mb-28 {
+    margin-bottom: 7rem;
   }
 
   .lg\:block {
@@ -894,10 +856,6 @@ video {
 
   .lg\:h-full {
     height: 100%;
-  }
-
-  .lg\:h-96 {
-    height: 24rem;
   }
 
   .lg\:max-h-30rem {
@@ -936,16 +894,8 @@ video {
     align-items: flex-start;
   }
 
-  .lg\:items-end {
-    align-items: flex-end;
-  }
-
   .lg\:items-center {
     align-items: center;
-  }
-
-  .lg\:justify-center {
-    justify-content: center;
   }
 
   .lg\:justify-around {
@@ -966,20 +916,16 @@ video {
          column-gap: 2rem;
   }
 
-  .lg\:gap-y-20 {
-    row-gap: 5rem;
-  }
-
-  .lg\:gap-y-4 {
-    row-gap: 1rem;
+  .lg\:gap-y-16 {
+    row-gap: 4rem;
   }
 
   .lg\:gap-y-2 {
     row-gap: 0.5rem;
   }
 
-  .lg\:gap-y-16 {
-    row-gap: 4rem;
+  .lg\:gap-y-20 {
+    row-gap: 5rem;
   }
 
   .lg\:px-6 {
@@ -991,16 +937,16 @@ video {
     padding-bottom: 6rem;
   }
 
+  .lg\:pt-0 {
+    padding-top: 0px;
+  }
+
   .lg\:pt-10 {
     padding-top: 2.5rem;
   }
 
   .lg\:pt-24 {
     padding-top: 6rem;
-  }
-
-  .lg\:pt-0 {
-    padding-top: 0px;
   }
 
   .lg\:text-start {
