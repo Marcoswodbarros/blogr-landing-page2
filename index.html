@@ -28,8 +28,8 @@
                 <img src="src/images/icon-close.svg" id="header__nav--close" class="h-5 hidden" alt="Icon x menu">
             </div>
 
-            <section id="header__mobile--menu" class="absolute bg-white h-70rem top-28 w-11/12 left-1/2 -translate-x-1/2 rounded-md">
-                <ul>
+            <section id="header__mobile--menu" class="absolute bg-white h-70rem top-28 w-11/12 left-1/2 -translate-x-1/2 rounded-md flex flex-col items-center">
+                <ul class="flex flex-col items-center gap-y-6 text-xl font-semibold my-8">
                     <li class="flex items-center gap-x-2 cursor-pointer">Product<img
                             src="src/images/icon-arrow-light.svg" alt="Arrow down"></li>
 
@@ -37,7 +37,7 @@
                             src="src/images/icon-arrow-light.svg" alt="Arrow down"></li>
 
                     <li class="flex items-center gap-x-2 cursor-pointer">Connect<img src="src/images/icon-arrow-light.svg" alt="Arrow down">
-                        <ul>
+                        <ul class="hidden">
                             <li>Contact</li>
                             <li>Newsletter</li>
                             <li>LinkedIn</li>
@@ -45,6 +45,9 @@
                     </li>
                 </ul>
 
+                <div class="bg-veryDarkGrayishBlue h-px w-10/12 mb-6"></div>
+                <a href="#" class="bg-transparent text-veryDarkGrayishBlue font-ubuntu font-bold py-2 px-3">Login</a>
+                <a href="#" class="bg-veryLightRed text-white font-ubuntu font-bold py-2 px-8 border border-solid border-white rounded-3xl">Sign up</a>
             </section>
 
             <nav class="hidden lg:block lg:pt-10 lg:px-6 lg:mb-28">
