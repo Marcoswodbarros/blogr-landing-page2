@@ -28,7 +28,7 @@
                 <img src="src/images/icon-close.svg" id="header__nav--close" class="h-5 hidden" alt="Icon x menu">
             </div>
 
-            <section id="header__mobile--menu" class="absolute bg-white h-70rem top-28 w-11/12 left-1/2 -translate-x-1/2 rounded-md flex flex-col items-center">
+            <section id="header__mobile--menu" class="hidden absolute bg-white h-70rem top-28 w-11/12 left-1/2 -translate-x-1/2 rounded-md flex-col items-center">
                 <ul class="flex flex-col items-center gap-y-6 text-xl font-semibold my-8">
                     <li class="flex items-center gap-x-2 cursor-pointer">Product<img
                             src="src/images/icon-arrow-light.svg" alt="Arrow down"></li>
@@ -36,8 +36,8 @@
                     <li class="flex items-center gap-x-2 cursor-pointer">Company<img
                             src="src/images/icon-arrow-light.svg" alt="Arrow down"></li>
 
-                    <li class="flex items-center gap-x-2 cursor-pointer">Connect<img src="src/images/icon-arrow-light.svg" alt="Arrow down">
-                        <ul class="hidden">
+                    <li id="menu__li--connect" class="flex items-center gap-x-2 cursor-pointer relative">Connect<img src="src/images/icon-arrow-light.svg" alt="Arrow down">
+                        <ul id="li__connect--ul" class="hidden absolute text-center flex-col gap-y-4 bg-grayishBlue rounded-md py-8 px-20 top-12 left-1/2 -translate-x-1/2">
                             <li>Contact</li>
                             <li>Newsletter</li>
                             <li>LinkedIn</li>
