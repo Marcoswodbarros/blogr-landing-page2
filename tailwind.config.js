@@ -30,7 +30,8 @@ module.exports = {
       },
 
       height: {
-        '30rem': '30rem'
+        '30rem': '30rem',
+        '70rem': '70rem'
       },
 
       screens: {
