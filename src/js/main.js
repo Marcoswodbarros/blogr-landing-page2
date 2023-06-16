@@ -5,6 +5,8 @@ let connect = document.querySelector('#menu__li--connect');
 let subMenu = document.querySelector('#li__connect--ul');
 let arrowDown = document.querySelector('#li__connect--arrow');
 let arrowUp = document.querySelector('#li__connect--arrowTwo');
+let login = document.querySelector('#subMenu__login');
+let company = document.querySelector('#company');
 
 hamburguer.addEventListener("click", openMenu);
 close.addEventListener("click", closeMenu);
@@ -15,6 +17,7 @@ function openMenu () {
     hamburguer.style.display = "none";
     close.style.display = "flex";
     menu.style.display = "flex";
+    subMenu.style.display = "none";
 }
 
 function closeMenu () {
@@ -25,6 +28,7 @@ function closeMenu () {
     connect.style.color = "black";
     arrowDown.style.display = "block";
     arrowUp.style.display = "none";
+    company.style.marginTop = "0";
 }
 
 function openSubMenu () {
@@ -32,6 +36,7 @@ function openSubMenu () {
     connect.style.color = "hsl(207, 13%, 34%)";
     arrowDown.style.display = "none";
     arrowUp.style.display = "block";
+    company.style.marginTop = "200px";
 }
 
 function closeSubMenu () {
@@ -39,4 +44,5 @@ function closeSubMenu () {
     connect.style.color = "black";
     arrowDown.style.display = "block";
     arrowUp.style.display = "none";
+    company.style.marginTop = "0";
 }
