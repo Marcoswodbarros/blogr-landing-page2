@@ -4,10 +4,12 @@ let menu = document. querySelector('#header__mobile--menu');
 let connect = document.querySelector('#menu__li--connect');
 let subMenu = document.querySelector('#li__connect--ul');
 let arrowDown = document.querySelector('#li__connect--arrow');
+let arrowUp = document.querySelector('#li__connect--arrowTwo');
 
 hamburguer.addEventListener("click", openMenu);
 close.addEventListener("click", closeMenu);
-arrowDown.addEventListener("click", openSubMenu)
+arrowDown.addEventListener("click", openSubMenu);
+arrowUp.addEventListener("click", closeSubMenu);
 
 function openMenu () {
     hamburguer.style.display = "none";
@@ -21,14 +23,20 @@ function closeMenu () {
     menu.style.display = "none";
     subMenu.style.display = "none";
     connect.style.color = "black";
+    arrowDown.style.display = "block";
+    arrowUp.style.display = "none";
 }
 
 function openSubMenu () {
     subMenu.style.display = "flex";
     connect.style.color = "hsl(207, 13%, 34%)";
+    arrowDown.style.display = "none";
+    arrowUp.style.display = "block";
 }
 
 function closeSubMenu () {
     subMenu.style.display = "none";
     connect.style.color = "black";
+    arrowDown.style.display = "block";
+    arrowUp.style.display = "none";
 }
