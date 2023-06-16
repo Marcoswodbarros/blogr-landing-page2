@@ -1,3 +1,4 @@
+let header = document.querySelector('header');
 let hamburguer = document.querySelector('#header__nav--hamburguer');
 let close = document.querySelector('#header__nav--close');
 let menu = document. querySelector('#header__mobile--menu');
@@ -14,6 +15,7 @@ arrowDown.addEventListener("click", openSubMenu);
 arrowUp.addEventListener("click", closeSubMenu);
 
 function openMenu () {
+    header.style.marginBottom = "10rem";
     hamburguer.style.display = "none";
     close.style.display = "flex";
     menu.style.display = "flex";
@@ -21,6 +23,7 @@ function openMenu () {
 }
 
 function closeMenu () {
+    header.style.marginBottom = "0";
     hamburguer.style.display = "flex";
     close.style.display = "none";
     menu.style.display = "none";
