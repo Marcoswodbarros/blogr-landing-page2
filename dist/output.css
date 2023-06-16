@@ -647,6 +647,10 @@ video {
   height: 1px;
 }
 
+.h-3 {
+  height: 0.75rem;
+}
+
 .w-10\/12 {
   width: 83.333333%;
 }
@@ -795,6 +799,11 @@ video {
   background-color: hsl(237 23% 32% / var(--tw-bg-opacity));
 }
 
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -928,6 +937,19 @@ video {
 .text-veryDarkGrayishBlue {
   --tw-text-opacity: 1;
   color: hsl(207 13% 34% / var(--tw-text-opacity));
+}
+
+.text-lightRedG {
+  --tw-text-opacity: 1;
+  color: hsl(353 100% 62% / var(--tw-text-opacity));
+}
+
+.opacity-5 {
+  opacity: 0.05;
+}
+
+.opacity-90 {
+  opacity: 0.9;
 }
 
 .button__login {
