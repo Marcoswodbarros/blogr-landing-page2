@@ -57,7 +57,7 @@ function closeSubMenu () {
 // Desktop variables
 let desktopSubMenu = document.querySelector('#nav__subMenu--ul');
 let desktopArrowDown = document.querySelector('#nav__subMenu--img');
-let desktopArrowUp = document.querySelector('nav__subMenu--imgTwo');
+let desktopArrowUp = document.querySelector('#nav__subMenu--imgTwo');
 
 // Desktop Events
 desktopArrowDown.addEventListener("click", openDesktopSubMenu);
