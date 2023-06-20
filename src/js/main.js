@@ -1,3 +1,4 @@
+// Mobile variables 
 let header = document.querySelector('header');
 let hamburguer = document.querySelector('#header__nav--hamburguer');
 let close = document.querySelector('#header__nav--close');
@@ -9,15 +10,13 @@ let arrowUp = document.querySelector('#li__connect--arrowTwo');
 let line = document.querySelector('#menu__line');
 let login = document.querySelector('#subMenu__login');
 
-let desktopMenu = document.querySelector('#nav__desktop--menu');
-
+// Mobile Events
 hamburguer.addEventListener("click", openMenu);
 close.addEventListener("click", closeMenu);
 arrowDown.addEventListener("click", openSubMenu);
 arrowUp.addEventListener("click", closeSubMenu);
 
-desktopMenu.addEventListener("click", openSubMenu);
-
+// Mobile Functions
 function openMenu () {
     header.style.marginBottom = "10rem";
     hamburguer.style.display = "none";
@@ -52,4 +51,27 @@ function closeSubMenu () {
     arrowDown.style.display = "block";
     arrowUp.style.display = "none";
     line.style.marginTop = "0";
+}
+
+
+// Desktop variables
+let desktopSubMenu = document.querySelector('#nav__subMenu--ul');
+let desktopArrowDown = document.querySelector('#nav__subMenu--img');
+let desktopArrowUp = document.querySelector('nav__subMenu--imgTwo');
+
+// Desktop Events
+desktopArrowDown.addEventListener("click", openDesktopSubMenu);
+desktopArrowUp.addEventListener("click", closeDesktopSubMenu);
+
+// Desktop functions
+function openDesktopSubMenu () {
+    desktopSubMenu.style.display = "flex";
+    desktopArrowDown.style.display = "none";
+    desktopArrowUp.style.display = "flex";
+}
+
+function closeDesktopSubMenu () {
+    desktopSubMenu.style.display = "none";
+    desktopArrowDown.style.display = "flex";
+    desktopArrowUp.style.display = "none";
 }
