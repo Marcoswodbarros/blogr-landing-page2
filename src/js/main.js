@@ -55,6 +55,7 @@ function closeSubMenu () {
 
 
 // Desktop variables
+let desktopConnect = document.querySelector('#nav__desktop--connect');
 let desktopSubMenu = document.querySelector('#nav__subMenu--ul');
 let desktopArrowDown = document.querySelector('#nav__subMenu--img');
 let desktopArrowUp = document.querySelector('#nav__subMenu--imgTwo');
@@ -65,12 +66,14 @@ desktopArrowUp.addEventListener("click", closeDesktopSubMenu);
 
 // Desktop functions
 function openDesktopSubMenu () {
+    desktopConnect.style.color = "white";
     desktopSubMenu.style.display = "flex";
     desktopArrowDown.style.display = "none";
     desktopArrowUp.style.display = "flex";
 }
 
 function closeDesktopSubMenu () {
+    desktopConnect.style.color = "hsl(240, 2%, 79%)";
     desktopSubMenu.style.display = "none";
     desktopArrowDown.style.display = "flex";
     desktopArrowUp.style.display = "none";
