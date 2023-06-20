@@ -9,10 +9,14 @@ let arrowUp = document.querySelector('#li__connect--arrowTwo');
 let line = document.querySelector('#menu__line');
 let login = document.querySelector('#subMenu__login');
 
+let desktopMenu = document.querySelector('#nav__desktop--menu');
+
 hamburguer.addEventListener("click", openMenu);
 close.addEventListener("click", closeMenu);
 arrowDown.addEventListener("click", openSubMenu);
 arrowUp.addEventListener("click", closeSubMenu);
+
+desktopMenu.addEventListener("click", openSubMenu);
 
 function openMenu () {
     header.style.marginBottom = "10rem";
