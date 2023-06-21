@@ -1,6 +1,6 @@
 # Frontend Mentor Challenge - Blogr Landing Page 2
 
-This is my tenth challenge from Rocketseat.
+This is my tenth challenge from Frontend Mentor.
 
 ## Table of contents
 
@@ -28,15 +28,14 @@ Users should be able to:
 
 ### Screenshot
 
-![Mobile](https://user-images.githubusercontent.com/108278189/234101312-b32105f8-b03f-46d0-89df-e21b4ab76c6c.png)
-![Mobile - Menu open](https://user-images.githubusercontent.com/108278189/234102460-0c24d865-cd91-4959-874d-48177d1b607e.png)
+![Mobile](https://github.com/Marcoswodbarros/blogr-landing-page2/assets/108278189/02dc5b1a-f453-4f78-bbb5-065d149d07d3)
+![Mobile-menu](https://github.com/Marcoswodbarros/blogr-landing-page2/assets/108278189/1f5e35bb-85e6-43b6-ad56-58f5ebfb90cf)
 
-![Tablet](https://user-images.githubusercontent.com/108278189/234101379-04fc01f8-88fd-43de-8aa7-33afecf342bc.png)
-![Tablet - Menu Open](https://user-images.githubusercontent.com/108278189/234102599-42a5dfef-cfe7-4bd8-ab71-9b351431c5f5.png)
+![Ipad](https://github.com/Marcoswodbarros/blogr-landing-page2/assets/108278189/c656d15e-c88c-4cce-8702-26c6cea58782)
+![Ipad-menu](https://github.com/Marcoswodbarros/blogr-landing-page2/assets/108278189/5e3f258f-db32-4894-8e28-7ec832b1d089)
 
-![Laptop](https://user-images.githubusercontent.com/108278189/234101447-67276ca5-b2fe-4a34-8892-98addfc4d509.png)
-
-![Laptop-L](https://user-images.githubusercontent.com/108278189/234101517-95dd95e5-2bde-4150-b684-8855cbf3008e.png)
+![Desktop](https://github.com/Marcoswodbarros/blogr-landing-page2/assets/108278189/3061f60e-f3e8-47b2-a765-b4c2b06a2aee)
+![Desktop-menu](https://github.com/Marcoswodbarros/blogr-landing-page2/assets/108278189/6276f417-df9d-4a5e-bd9f-5efef1b5bcba)
 
 ### Links
 
