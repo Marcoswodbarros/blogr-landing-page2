@@ -40,8 +40,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/Marcoswodbarros/RocketCoffee.git]
-- Deploy: [https://marcoswodbarros.github.io/RocketCoffee/]
+- Solution URL: [https://github.com/Marcoswodbarros/blogr-landing-page2.git]
+- Deploy: [https://marcoswodbarros.github.io/blogr-landing-page2/]
 
 
 ## My process
